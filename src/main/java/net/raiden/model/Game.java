@@ -1,11 +1,13 @@
 package net.raiden.model;
 
-import net.raiden.model.gameobjects.Hero;
-
-import java.awt.*;
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.Graphics;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.List;
+
+import net.raiden.model.gameobjects.Hero;
 
 public class Game {
     private BackGround bg;

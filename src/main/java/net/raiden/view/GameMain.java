@@ -1,12 +1,16 @@
 package net.raiden.view;
 
-import net.raiden.model.Game;
-import net.raiden.model.SoundPlayer;
-
-import javax.swing.*;
-import java.awt.*;
+import java.awt.Rectangle;
+import java.awt.Toolkit;
 import java.awt.event.KeyEvent;
 import java.io.BufferedInputStream;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.SwingUtilities;
+
+import net.raiden.model.Game;
+import net.raiden.model.SoundPlayer;
 
 public class GameMain extends JFrame {
 

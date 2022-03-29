@@ -1,3 +1,6 @@
 .idea/
 target/
 raiden.iml
+.classpath
+.project
+.settings/
